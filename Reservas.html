@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Reservas</title>
+        <meta charset="utf-8">
+        <link rel="favicon" href="Imagenes/logoRestaurante.jpg" type="image/x-icon">
+        <link rel="icon" href="Imagenes/logoRestaurante.jpg">
+        <link rel="stylesheet" href="Formulario.css">
+    </head>
+    <body>
+        <header>
+            <img src="Imagenes/logoRestaurante.jpg" alt="Logo del Restaurante" width="200" height="200">
+            <h1>CHAPOOO</h1>
+        </header>   
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="Menu.html">Carta</a>
+            <a href="Reservas.html">Reservas</a>
+            <a href="SobreNosotros.html">Sobre Nosotros</a>
+        </nav>
+        <div id="indice">
+            <p>Puedes garantizar tu espacio en nuestro restaurante en tan solo unos minutos.</p>
+            <p>!Reserva ahora!</p>
+        </div>
+        <form action="index.html">
+            <fieldset>
+                <legend>Datos del solicitante</legend>
+                <label for="id-nombre">Nombre:</label>
+                <input type="text" name="nombre" id="id-nombre">
+                <label for="id-apellido">Apellido:</label>
+                <input type="text" name="apellido" id="id-apellido">
+
+                <label for="id-correo">Correo Electrónico: </label>
+				<input type="email" name="correo" id="id-correo">
+
+                <label for="id-telefono">Número de teléfono:</label>
+                <input type="tel" name="telefono" id="id-telefono">
+            </fieldset>
+            <fieldset>
+                <legend>Datos de la reserva</legend>
+                <label for="id-fecha">Fecha:</label>
+				<input type="date" name="fecha" id="id-fecha" value="">
+                <label for="id-fecha">Hora:</label>
+				<input type="time" name="hora" id="id-hora" value="">
+
+                <label for="id-numero">Número de comensales:</label>
+                <input type="text" name="numero" id="id-numero">
+
+                <label for="id-lugar">Lugar: </label>
+                <select id="id-lugar" name="lugar">
+                    <option selected>Comedor Principal</option>
+                    <option>Terraza</option>
+                    <option>Reservado (Máx. 8 pers)</option>
+               </select>
+            </fieldset>
+            <fieldset>
+                <legend>Información sobre Alérgenos</legend>
+                <p>¿Hay algún comensal celiaco/a?</p>
+				<input type="radio" id="celiaco-Si" name="celiaco" value="0">
+				<label for="celiaco-Si">Sí</label> 
+				<input type="radio" id="celiaco-No" name="celiaco" value="1" checked>
+				<label for="celiaco-No">No</label>
+
+                <p>Si dispone de otro tipo de alergias o intolerancia comuniquenoslo:</p>
+                <textarea name="intolerancias" rows="6" cols="30"></textarea>
+            </fieldset>
+            <input type="checkbox" name="aceptar" id="id-condiciones" value="1">
+            <label for="id-condiciones">He leído y acepto las condiciones de privacidad.</label>
+            <input type="submit" name="confirmacion" value="Confirmar reserva">
+        </form>
+        <footer>
+            <div class="footer-info">
+                <h3>CONTÁCTANOS</h3>
+                <p>619114072</p>
+                <p>Calle de Ayala, nº2, Madrid</p>
+                <p>@chapooo_</p>
+            </div>
+            <div class="social-media">
+                <h3>Síguenos en Redes Sociales</h3>
+                <a href="https://www.facebook.com" target="_blank"><img src="Imagenes/facebook.png" alt="Facebook"></a>
+                <a href="https://www.twitter.com" target="_blank"><img src="Imagenes/twitter.png" alt="Twitter"></a>
+                <a href="https://www.instagram.com" target="_blank"><img src="Imagenes/instagram.png" alt="Instagram"></a>
+            </div>
+        </footer>
+    </body>
+</html>

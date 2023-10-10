@@ -1,0 +1,234 @@
+/* PAGINA INICIO */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0px;
+    text-align: center;
+}
+
+nav {
+    background-color: #444;
+    padding: 10px 0px;
+    text-align: center;
+}
+nav a {
+    color: #fff;
+    margin: 0px 20px;
+    /* font-weight: bold; */
+}
+
+body {
+    font-family: Arial;
+    margin: 0 auto;
+    padding: 0px;
+}
+h1 {
+    font-size: 36px;
+    margin-top: 10px;
+}
+#indice {
+    background-color: #f5f5f5;
+    padding: 20px;
+    text-align: left;
+}
+#indice ol li, #indice ul li {
+    margin: 10px 0px;
+}
+#indice ol, #indice ul {
+    margin-left: 20px;
+}
+#indice p {
+    text-align: center;
+}
+
+footer{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+
+}
+
+
+footer h3 {
+    color: #d23f31 
+}
+.footer-info, .social-media {
+    /* esto no se si se puede */
+    display: inline-block; 
+    /* width: 50%;  */
+}
+.social-media img {
+    width: 30px; 
+    height: 30px;
+    margin: 10px; 
+}
+.footer-info {
+    margin: 0 20px;
+}
+
+
+#contenido {
+    padding: 20px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    /* no se si se puede usar */
+    display: inline-block;
+    margin-right: 20px;
+}
+#contenido h2 {
+    color: #333;
+}
+#contenido p {
+    color: #666;
+}
+#contenido img {
+    width: 390px; 
+    height: 300px; 
+}
+#ubi  img {
+    width: 1200px;
+}
+
+#horario {
+    text-align: center;
+}
+
+
+/* CARTA */
+#contenidoCarta h2{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 20px;
+    color: #d23f31; 
+}
+
+
+table, th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+table {
+    margin-top: 10px;
+    margin: 0 auto;
+
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+th {
+    background-color: #d23f31; 
+    color: #fff;
+}
+ul {
+    padding: 0px;
+}
+li {
+    margin: 5px 0px;
+}
+
+
+#contenidoCarta {
+    margin-left: 80px;
+    text-align: center;
+}
+#contenidoCarta img {
+    width: 550px; 
+    height: 250px; 
+}
+#contenidoCarta p {
+    font-weight: bold;
+}
+
+#menu {
+    text-align: center;
+    margin-bottom: 50px;
+    line-height: 1.5;
+}
+#menu h4 {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+#menu h3 {
+    font-size: 1.5rem;
+    color: #d23f31; 
+}
+
+
+
+
+/* SOBRE NOSOTROS */
+
+#testimonios {
+    text-align: center;
+}
+.testimonial {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px 0;
+}
+.client-name {
+    margin-top: 10px;
+    font-style: italic;
+}
+
+#indiceSN {
+    background-color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+}
+#indiceSN ul li {
+    margin: 10px 0px;
+    list-style-type: none;
+}
+#indice ul {
+    margin-left: 20px;
+}
+
+
+
+.section-izq {
+    /* no se si se puede */
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    background-color: #FF9999; 
+    margin-bottom: 30px; 
+}
+
+.texto-izquierda p, .texto-derecha p {
+    text-align: justify;
+    color: #333;
+}
+
+.section-dch {
+    /* no se si se puede */
+    display: flex;
+    margin-bottom: 30px; 
+    align-items: center;
+    padding: 30px;
+    background-color: lightgrey; 
+}
+.texto-izquierda {
+    width: 50%;
+    text-align: left;
+    margin-bottom: 30px;
+}
+.texto-derecha{
+    width: 50%;
+    text-align: right;
+}
+.imagen-derecha {
+    width: 50%;
+    text-align: right;
+}
+.imagen-derecha img, .imagen-izq img{
+    max-width: 100%;
+    height: auto;
+}
+.imagen-izq {
+    width: 50%;
+    text-align: left;
+}
+
